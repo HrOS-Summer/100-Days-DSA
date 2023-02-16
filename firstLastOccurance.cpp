@@ -25,7 +25,7 @@ int first_occurance(vector <int> &v, int size, int key) {
     return ans;
 }
 
-int last_occurance(int arr[], int size, int key) {
+int last_occurance(vector <int> &v, int size, int key) {
     int s = 0; int e = size - 1;
     int mid = s + (e-s)/2;
     int ans = -1;
