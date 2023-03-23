@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 
-//If array is not sorted then use linear search
+//For sorted array
 
 int first_occurance(vector <int> &v, int size, int key) {
     int s = 0; int e = size - 1;
