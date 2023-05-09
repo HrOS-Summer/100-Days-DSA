@@ -14,9 +14,9 @@ void moveZeroOns(int array[], int size) {
 
 //Time complexity for below code O(n)
 void moveZeroOn(int arr[], int n) {
-    int count = 0;
+    int count = 0;                   //Counter variable will count the number of consecutive non-zero elements
     for (int i = 0; i < n; i++) {
-        if (arr[i] != 0) {
+        if (arr[i] != 0) {          //If a non-zero element found after zero then swap the element and first zero element in the array    
             swap(arr[i], arr[count]);
             count++;
         }
